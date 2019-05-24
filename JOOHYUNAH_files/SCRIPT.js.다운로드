@@ -1,0 +1,44 @@
+// JavaScript Document
+jQuery(document).ready(function(e) {
+    $(".nav>li").mouseover(function(e) {
+        $(this).children(".submenu").stop().slideDown();
+    });
+	$(".nav>li").mouseleave(function(e) {
+        $(this).children(".submenu").stop().slideUp();
+    });
+});
+
+
+var win;
+	function winOpen(){
+		win=window.open('second contact.html','child','width=500,height=300')
+	};
+	
+
+$(".gustave").click(function(e) {
+    $(".modal").show();
+});
+$(".modal p button").click(function(e) {
+    $(".modal").hide();
+});
+
+$(".zero").click(function(e) {
+    $(".modaltwo").show();
+});
+$(".modaltwo p button").click(function(e) {
+    $(".modaltwo").hide();
+});
+
+$(".agatha").click(function(e) {
+    $(".modalthree").show();
+});
+$(".modalthree p button").click(function(e) {
+    $(".modalthree").hide();
+});
+
+$(".bad").click(function(e) {
+    $(".modalfour").show();
+});
+$(".modalfour p button").click(function(e) {
+    $(".modalfour").hide();
+});

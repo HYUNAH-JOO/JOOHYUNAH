@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0037)http://127.0.0.1:5500/joohyunah.html# -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>THE BUDAPEST HOTEL</title>
+
+<script src="./JOOHYUNAH_files/SCRIPT.js.다운로드" defer="defer" type="text/javascript"></script>
+<script src="./JOOHYUNAH_files/jquery-1.12.3.js.다운로드" type="text/javascript"></script>
+<link href="./JOOHYUNAH_files/STYLE.css" rel="stylesheet" type="text/css"></head>
+
+<body>
+<header class="all">
+	<div class="logo">
+    <img src="./JOOHYUNAH_files/name.jpg" width="300px" alt="no"> </div>
+    <ul class="nav">
+    	<li><a href="http://127.0.0.1:5500/joohyunah.html#"><img src="./JOOHYUNAH_files/moon.jpg" width="300px" height="89px" alt="NO"></a>
+        	<!-- <ul class="submenu">
+            	<li><a href="#">Location</a></li>
+                <li><a href="#">Policy</a></li>
+                <li><a href="#">Secret club</a></li>
+            </ul> -->
+        </li>
+        <li><a href="http://127.0.0.1:5500/joohyunah.html#"><img src="./JOOHYUNAH_files/circle.jpg" width="300px" height="89px" alt="NO"></a>
+        	<!-- <ul class="submenu">
+            	<li><a href="#">Superior Queen</a></li>
+                <li><a href="#">Superior King</a></li>
+                <li><a href="#">Executive King</a></li>
+                <li><a href="#">Deluxe King</a></li>
+            </ul> -->
+        </li>
+        <li><a href="http://127.0.0.1:5500/joohyunah.html#"><img src="./JOOHYUNAH_files/star.jpg" width="300px" height="89px" alt="NO"></a>
+        	<!-- <ul class="submenu">
+            	<li><a href="#">Afternoon TEA</a></li>
+                <li><a href="#">Dining offers</a></li>
+                <li><a href="#">Private Dining</a></li>
+                <li><a href="#">Dessert</a></li>
+                <li><a href="#">Secret BAR</a></li>
+            </ul> -->
+        </li>
+        <!-- <li onclick="winOpen();"><a href="#">CONTACT</a>
+        </li> -->
+    </ul>
+</header>
+
+<div class="clear"></div>
+
+<div id="hotel" class="wrap">
+<img src="./JOOHYUNAH_files/room.jpg" width="1200px" height="1489px" alt="NO"> </div>
+
+<div class="clear"></div>
+
+<div id="staff" class="wrap">
+
+  <table class="staff_table">
+  <tbody><tr>
+    <td><div class="gustave"><img src="./JOOHYUNAH_files/g.jpg" alt="no"></div></td>
+    <td><div class="zero"><img src="./JOOHYUNAH_files/z.jpg" alt="no"></div></td>
+    <td><div class="agatha"><img src="./JOOHYUNAH_files/a.jpg" alt="no"></div></td>
+    <td><div class="bad"><img src="./JOOHYUNAH_files/d.jpg" alt="no"></div></td>
+  </tr>
+  <tr>
+    <td><div class="gustave">Gustave</div></td>
+    <td><div class="zero">Zero</div></td>
+    <td><div class="agatha">Agatha</div></td>
+    <td><div class="bad">Dmitri</div></td>
+  </tr>
+</tbody></table>
+</div>
+
+<div class="modal">
+<img src="./JOOHYUNAH_files/moon.jpg" width="500" height="250" alt="no"> 
+<span class="name">M. Gustave</span> 
+<span class="text"><h3>JOO HYUNAH</h3><p></p></span>
+<p>
+  <button>Close</button>
+</p>
+</div>
+
+<div class="modaltwo">
+<img src="./JOOHYUNAH_files/circle.jpg" width="500" height="250" alt="no"> 
+<span class="nametwo">Zero Moustafa</span> 
+<span class="texttwo">“For my dearest darling, treasured, cherished Agatha whom I worship. <br>With respect, adoration, admiration, kisses, gratitude, best wishes, and love from Z to A”</span>
+<p>
+  <button>Close</button>
+</p>
+</div>
+
+<div class="modalthree">
+<img src="./JOOHYUNAH_files/star.jpg" width="500" height="250" alt="no">
+<span class="namethree">Agatha</span> 
+<span class="textthree">"Whence came these two radiant celestial brothers, united for an instant, <br>as they crossed the upper stratosphere of our starry window, one from the east, and one from the west."</span>
+<p>
+  <button>Close</button>
+</p>
+</div>
+
+
+<div class="clear"></div>
+
+
+
+<footer>
+</footer>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
